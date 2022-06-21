@@ -2,10 +2,22 @@
     width: 50px;
     height: 50px;
     background-color: yellow;
+    clip-path: polygon(50% 0%, 80% 10%, 56% 54%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
 
 #play{
     width: 200vh;
     height: 90vh;
     background-color: rgb(64, 64, 53);
+}
+
+.move{
+    margin-left: 10px; ;
+}
+
+.mur{
+    height: 10px;
+    height: 10em;
+    width: 103em;
+    border: solid blue;
 }
